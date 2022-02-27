@@ -1433,7 +1433,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="360.68" y="-121.92" size="1.778" layer="91">3DO - Connect 18 and 19 once in own file on female side</text>
 </plain>
 <instances>
 <instance part="X1" gate="-1" x="355.6" y="-88.9" smashed="yes">

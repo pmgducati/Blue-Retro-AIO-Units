@@ -181,6 +181,8 @@
 <hole x="67.5" y="47.5" drill="5"/>
 <hole x="18.5" y="53" drill="5"/>
 <hole x="18.5" y="8" drill="5"/>
+<text x="72" y="25" size="1.778" layer="21" rot="R90">Main PCB</text>
+<text x="45.5" y="13" size="1.778" layer="21" rot="R180">v1.0 1/25/22</text>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">

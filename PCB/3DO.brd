@@ -181,6 +181,8 @@
 <hole x="52.99" y="47.64" drill="5"/>
 <hole x="18.49" y="53.14" drill="5"/>
 <hole x="18.49" y="8.14" drill="5"/>
+<text x="57.5" y="27.5" size="1.778" layer="21" rot="R90">3DO</text>
+<text x="25" y="11" size="1.778" layer="21">v1.0 2/14/22</text>
 </plain>
 <libraries>
 <library name="wirepad" urn="urn:adsk.eagle:library:412">

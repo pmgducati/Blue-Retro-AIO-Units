@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -181,7 +181,8 @@
 <hole x="53.03" y="47.62" drill="5"/>
 <hole x="18.53" y="53.12" drill="5"/>
 <hole x="18.53" y="8.12" drill="5"/>
-<text x="1.5" y="58.5" size="1.27" layer="21">Saturn v1.0 2/18/22</text>
+<text x="1.5" y="58.5" size="1.27" layer="21">v1.0 2/18/22</text>
+<text x="57.5" y="26.5" size="1.778" layer="21" rot="R90">Saturn</text>
 </plain>
 <libraries>
 <library name="wirepad" urn="urn:adsk.eagle:library:412">
@@ -1295,16 +1296,6 @@ design rules under a new name.</description>
 <wire x1="26.5" y1="19.311" x2="26.5" y2="16.5" width="0.4064" layer="16"/>
 <wire x1="47.5" y1="16" x2="51.5" y2="20" width="0.4064" layer="16"/>
 </signal>
-<signal name="NEEDPINID">
-<contactref element="U1A" pad="11"/>
-<contactref element="X1" pad="20"/>
-<wire x1="28.5" y1="19.851" x2="27.149" y2="18.5" width="0.4064" layer="1"/>
-<wire x1="27.149" y1="18.5" x2="20.5" y2="18.5" width="0.4064" layer="1"/>
-<wire x1="18.5" y1="20.5" x2="18.5" y2="30.5" width="0.4064" layer="1"/>
-<wire x1="18.5" y1="30.5" x2="17.0884" y2="31.9116" width="0.4064" layer="1"/>
-<wire x1="17.0884" y1="31.9116" x2="9.4" y2="31.9116" width="0.4064" layer="1"/>
-<wire x1="20.5" y1="18.5" x2="18.5" y2="20.5" width="0.4064" layer="1"/>
-</signal>
 <signal name="TL1">
 <contactref element="U2A" pad="3"/>
 <contactref element="TL1" pad="1"/>
@@ -1423,6 +1414,16 @@ design rules under a new name.</description>
 <wire x1="48.5" y1="27.5" x2="49" y2="28" width="0.4064" layer="16"/>
 <wire x1="49" y1="28" x2="51.5" y2="28" width="0.4064" layer="16"/>
 <wire x1="35.169" y1="23.5" x2="39.5" y2="23.5" width="0.4064" layer="16"/>
+</signal>
+<signal name="IO16">
+<contactref element="X1" pad="20"/>
+<contactref element="U1A" pad="11"/>
+<wire x1="28.5" y1="19.851" x2="27.149" y2="18.5" width="0.4064" layer="1"/>
+<wire x1="27.149" y1="18.5" x2="20.5" y2="18.5" width="0.4064" layer="1"/>
+<wire x1="18.5" y1="20.5" x2="18.5" y2="30.5" width="0.4064" layer="1"/>
+<wire x1="17.0884" y1="31.9116" x2="18.5" y2="30.5" width="0.4064" layer="1"/>
+<wire x1="20.5" y1="18.5" x2="18.5" y2="20.5" width="0.4064" layer="1"/>
+<wire x1="9.4" y1="31.9116" x2="17.0884" y2="31.9116" width="0.4064" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
