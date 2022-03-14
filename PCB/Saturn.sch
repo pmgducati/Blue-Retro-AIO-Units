@@ -1424,7 +1424,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$48" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
 <part name="U$49" library="microbuilder" deviceset="VIN" device="" value="3v3in"/>
 <part name="U$11" library="microbuilder" deviceset="VIN" device="" value="5VIN"/>
-<part name="5VIN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="5VIN1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="R1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="TL1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="TR1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
@@ -1446,7 +1446,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TR2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="TH2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="U2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
-<part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="GND1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="5VIN2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="GND2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -1486,12 +1488,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$49" gate="G$1" x="312.42" y="-66.04" smashed="yes">
 <attribute name="VALUE" x="310.896" y="-65.024" size="1.27" layer="96"/>
 </instance>
-<instance part="U$11" gate="G$1" x="238.76" y="-127" smashed="yes">
-<attribute name="VALUE" x="237.236" y="-125.984" size="1.27" layer="96"/>
+<instance part="U$11" gate="G$1" x="238.76" y="-124.46" smashed="yes">
+<attribute name="VALUE" x="237.236" y="-123.444" size="1.27" layer="96"/>
 </instance>
-<instance part="5VIN" gate="1" x="233.68" y="-132.08" smashed="yes">
-<attribute name="NAME" x="224.917" y="-132.7658" size="1.778" layer="95"/>
-<attribute name="VALUE" x="232.537" y="-135.382" size="1.778" layer="96"/>
+<instance part="5VIN1" gate="1" x="233.68" y="-129.54" smashed="yes">
+<attribute name="NAME" x="224.917" y="-130.2258" size="1.778" layer="95"/>
+<attribute name="VALUE" x="232.537" y="-132.842" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="1" x="233.68" y="-147.32" smashed="yes">
 <attribute name="NAME" x="224.917" y="-148.0058" size="1.778" layer="95"/>
@@ -1541,8 +1543,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$4" gate="G$1" x="396.24" y="-63.5" smashed="yes">
 <attribute name="VALUE" x="394.716" y="-62.484" size="1.27" layer="96"/>
 </instance>
-<instance part="U$5" gate="G$1" x="238.76" y="-175.26" smashed="yes">
-<attribute name="VALUE" x="237.236" y="-177.8" size="1.27" layer="96"/>
+<instance part="U$5" gate="G$1" x="238.76" y="-177.8" smashed="yes">
+<attribute name="VALUE" x="237.236" y="-180.34" size="1.27" layer="96"/>
 </instance>
 <instance part="D2" gate="1" x="233.68" y="-152.4" smashed="yes">
 <attribute name="NAME" x="224.917" y="-153.0858" size="1.778" layer="95"/>
@@ -1572,9 +1574,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="224.917" y="-155.6258" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.537" y="-158.242" size="1.778" layer="96"/>
 </instance>
-<instance part="GND" gate="1" x="233.68" y="-170.18" smashed="yes">
+<instance part="GND1" gate="1" x="233.68" y="-170.18" smashed="yes">
 <attribute name="NAME" x="224.917" y="-170.8658" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.537" y="-173.482" size="1.778" layer="96"/>
+</instance>
+<instance part="5VIN2" gate="1" x="233.68" y="-132.08" smashed="yes">
+<attribute name="NAME" x="224.917" y="-132.7658" size="1.778" layer="95"/>
+<attribute name="VALUE" x="232.537" y="-135.382" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="233.68" y="-172.72" smashed="yes">
+<attribute name="NAME" x="224.917" y="-173.4058" size="1.778" layer="95"/>
+<attribute name="VALUE" x="232.537" y="-176.022" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1715,10 +1725,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="355.6" y="-109.22"/>
 </segment>
 <segment>
-<pinref part="GND" gate="1" pin="P"/>
+<pinref part="GND1" gate="1" pin="P"/>
 <wire x1="236.22" y1="-170.18" x2="238.76" y2="-170.18" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="-170.18" x2="238.76" y2="-172.72" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="GND"/>
+<pinref part="GND2" gate="1" pin="P"/>
+<wire x1="238.76" y1="-172.72" x2="238.76" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-172.72" x2="238.76" y2="-172.72" width="0.1524" layer="91"/>
+<junction x="238.76" y="-172.72"/>
 </segment>
 </net>
 <net name="5VIN" class="0">
@@ -1729,10 +1743,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="231.14" y1="-88.9" x2="228.6" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="5VIN" gate="1" pin="P"/>
+<pinref part="5VIN1" gate="1" pin="P"/>
+<wire x1="236.22" y1="-129.54" x2="238.76" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-129.54" x2="238.76" y2="-127" width="0.1524" layer="91"/>
+<pinref part="U$11" gate="G$1" pin="VIN"/>
+<pinref part="5VIN2" gate="1" pin="P"/>
 <wire x1="236.22" y1="-132.08" x2="238.76" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="-132.08" x2="238.76" y2="-129.54" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="VIN"/>
+<junction x="238.76" y="-129.54"/>
 </segment>
 <segment>
 <pinref part="U2A" gate="G$1" pin="VCC"/>

@@ -1317,18 +1317,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$54" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
 <part name="P3DATA" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P1GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
-<part name="P15V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="P13V3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P4DATA" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
-<part name="P25V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
-<part name="P35V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
-<part name="P45V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="P23V3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="P33V3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="P43V3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P2GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P3GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P4GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P1DATA" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P2DATA" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="U$52" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
-<part name="U$55" library="microbuilder" deviceset="VIN" device="" value="5VIN"/>
+<part name="U$55" library="microbuilder" deviceset="VIN" device="" value="3V3IN"/>
 <part name="U$1" library="microbuilder" deviceset="VIN" device="" value="3V3IN"/>
 </parts>
 <sheets>
@@ -1354,7 +1354,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="438.277" y="-21.0058" size="1.778" layer="95"/>
 <attribute name="VALUE" x="445.897" y="-23.622" size="1.778" layer="96"/>
 </instance>
-<instance part="P15V" gate="1" x="447.04" y="-7.62" smashed="yes">
+<instance part="P13V3" gate="1" x="447.04" y="-7.62" smashed="yes">
 <attribute name="NAME" x="438.277" y="-8.3058" size="1.778" layer="95"/>
 <attribute name="VALUE" x="445.897" y="-10.922" size="1.778" layer="96"/>
 </instance>
@@ -1362,15 +1362,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="435.737" y="-0.6858" size="1.778" layer="95"/>
 <attribute name="VALUE" x="445.897" y="-3.302" size="1.778" layer="96"/>
 </instance>
-<instance part="P25V" gate="1" x="447.04" y="-10.16" smashed="yes">
+<instance part="P23V3" gate="1" x="447.04" y="-10.16" smashed="yes">
 <attribute name="NAME" x="438.277" y="-10.8458" size="1.778" layer="95"/>
 <attribute name="VALUE" x="445.897" y="-13.462" size="1.778" layer="96"/>
 </instance>
-<instance part="P35V" gate="1" x="447.04" y="-12.7" smashed="yes">
+<instance part="P33V3" gate="1" x="447.04" y="-12.7" smashed="yes">
 <attribute name="NAME" x="438.277" y="-13.3858" size="1.778" layer="95"/>
 <attribute name="VALUE" x="445.897" y="-16.002" size="1.778" layer="96"/>
 </instance>
-<instance part="P45V" gate="1" x="447.04" y="-15.24" smashed="yes">
+<instance part="P43V3" gate="1" x="447.04" y="-15.24" smashed="yes">
 <attribute name="NAME" x="438.277" y="-15.9258" size="1.778" layer="95"/>
 <attribute name="VALUE" x="445.897" y="-18.542" size="1.778" layer="96"/>
 </instance>
@@ -1522,10 +1522,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="3V3IN" class="0">
 <segment>
-<wire x1="403.86" y1="-12.7" x2="403.86" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="-15.24" x2="403.86" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="U$53" gate="G$1" pin="VIN"/>
-<pinref part="X1" gate="-1" pin="7"/>
-<wire x1="406.4" y1="-12.7" x2="403.86" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-1" pin="8"/>
+<wire x1="406.4" y1="-15.24" x2="403.86" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-1" pin="17"/>
@@ -1534,13 +1534,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$1" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
-<pinref part="P15V" gate="1" pin="P"/>
-<pinref part="P45V" gate="1" pin="P"/>
+<pinref part="P13V3" gate="1" pin="P"/>
+<pinref part="P43V3" gate="1" pin="P"/>
 <wire x1="452.12" y1="-7.62" x2="449.58" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="449.58" y1="-15.24" x2="452.12" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="P35V" gate="1" pin="P"/>
+<pinref part="P33V3" gate="1" pin="P"/>
 <wire x1="449.58" y1="-12.7" x2="452.12" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="P25V" gate="1" pin="P"/>
+<pinref part="P23V3" gate="1" pin="P"/>
 <wire x1="449.58" y1="-10.16" x2="452.12" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="U$55" gate="G$1" pin="VIN"/>
 <wire x1="452.12" y1="-15.24" x2="452.12" y2="-12.7" width="0.1524" layer="91"/>
