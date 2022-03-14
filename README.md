@@ -1,7 +1,7 @@
 # Blue Retro AIO PCBs
 This is a collection of PCBs that I made to work with darthcloud's BlueRetro Project. (https://github.com/darthcloud/BlueRetro)  The PCB's were created in Eagle and I have included the Gerbers if you would like to create them yourself. 
 
-Currently I have Gamecube, 3DO and PCEngine/Turbografx 16 complete and verified. I have PCBs enroute for Saturn, Nintendo 64, Virtual Boy, PSX/PS2 and NES. Once they are verified I will merge the branch.  
+Currently I have NES, Nintendo 64, Gamecube, Sega Saturn, 3DO and PCEngine/Turbografx 16 complete and verified. I am working through PSX/PS2 and Virtual Boy. Once they are verified I will merge the branch(es).  
 
 Once I complete this round of PCB's I will start working on the housings for each system.
 
