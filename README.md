@@ -3,7 +3,7 @@ This is a collection of PCBs that I made to work with darthcloud's BlueRetro Pro
 
 Currently I have NES, Nintendo 64, Gamecube, Sega Saturn, 3DO and PCEngine/Turbografx 16 complete and verified. I am working through PSX/PS2 and Virtual Boy. Once they are verified I will merge the branch(es).  
 
-Once I complete this round of PCB's I will start working on the housings for each system.
+The Housing CAD is complete and I am awaiting the prints for test fits
 
 Please post any requests for a PCB from darthcloud's list and I am happy to make it.
 
