@@ -229,3 +229,135 @@ Use time: 8 s
 Download result: PASS
 *************************** END ****************************
 
+*************************** START ****************************
+START TIME: 202203221137
+CONNECT BAUD: 115200
+com port closed
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+chip sync ok
+mac l: 0x7cdb2614
+mac h: 0x7da4e5
+crc_cal: 125
+crc_read: 125
+crc_test: 0
+ESP32 MAC CRC OK
+get mac res: 1
+get flash id : 0x0016405e
+manufacturer_id: 0x5e
+device_id: 0x4016
+Wrote 23104 bytes (14675 compressed) at 0x00001000 in 0.2 seconds (effective 987.6 kbit/s)...
+Hash of data verified.Wrote 3072 bytes (153 compressed) at 0x00008000 in 0.0 seconds (effective 4419.6 kbit/s)...
+Hash of data verified.Wrote 534784 bytes (326429 compressed) at 0x00010000 in 5.2 seconds (effective 828.1 kbit/s)...
+Hash of data verified.
+Leaving...
+com closed
+Use time: 7 s
+Download result: PASS
+*************************** END ****************************
+
+*************************** START ****************************
+START TIME: 202203221156
+CONNECT BAUD: 115200
+com port closed
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+chip sync ok
+mac l: 0x7cdb2614
+mac h: 0x7da4e5
+crc_cal: 125
+crc_read: 125
+crc_test: 0
+ESP32 MAC CRC OK
+get mac res: 1
+get flash id : 0x0016405e
+manufacturer_id: 0x5e
+device_id: 0x4016
+Wrote 23104 bytes (14675 compressed) at 0x00001000 in 0.2 seconds (effective 979.6 kbit/s)...
+Hash of data verified.Wrote 3072 bytes (153 compressed) at 0x00008000 in 0.0 seconds (effective 3958.3 kbit/s)...
+Hash of data verified.Wrote 535456 bytes (326931 compressed) at 0x00010000 in 5.2 seconds (effective 827.8 kbit/s)...
+Hash of data verified.
+Leaving...
+com closed
+Use time: 8 s
+Download result: PASS
+*************************** END ****************************
+
+*************************** START ****************************
+START TIME: 202203221213
+CONNECT BAUD: 115200
+com port closed
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+chip sync ok
+mac l: 0x7cdb2614
+mac h: 0x7da4e5
+crc_cal: 125
+crc_read: 125
+crc_test: 0
+ESP32 MAC CRC OK
+get mac res: 1
+get flash id : 0x0016405e
+manufacturer_id: 0x5e
+device_id: 0x4016
+Wrote 23104 bytes (14675 compressed) at 0x00001000 in 0.2 seconds (effective 981.9 kbit/s)...
+Hash of data verified.Wrote 3072 bytes (153 compressed) at 0x00008000 in 0.0 seconds (effective 3657.0 kbit/s)...
+Hash of data verified.Wrote 535456 bytes (326931 compressed) at 0x00010000 in 5.1 seconds (effective 832.8 kbit/s)...
+Hash of data verified.
+Leaving...
+com closed
+Use time: 7 s
+Download result: PASS
+*************************** END ****************************
+
+*************************** START ****************************
+START TIME: 202203221239
+CONNECT BAUD: 115200
+com port closed
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+chip sync ok
+mac l: 0x7cdb2614
+mac h: 0x7da4e5
+crc_cal: 125
+crc_read: 125
+crc_test: 0
+ESP32 MAC CRC OK
+get mac res: 1
+get flash id : 0x0016405e
+manufacturer_id: 0x5e
+device_id: 0x4016
+Wrote 23104 bytes (14675 compressed) at 0x00001000 in 0.2 seconds (effective 987.7 kbit/s)...
+Hash of data verified.Wrote 3072 bytes (153 compressed) at 0x00008000 in 0.0 seconds (effective 4537.9 kbit/s)...
+Hash of data verified.Wrote 535456 bytes (326931 compressed) at 0x00010000 in 5.1 seconds (effective 833.5 kbit/s)...
+Hash of data verified.
+Leaving...
+com closed
+Use time: 7 s
+Download result: PASS
+*************************** END ****************************
+
