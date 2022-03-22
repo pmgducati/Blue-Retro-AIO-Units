@@ -1313,7 +1313,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="X1" library="SparkFun-Retired" deviceset="DB25_FEMALE" device="H"/>
-<part name="U$53" library="microbuilder" deviceset="VIN" device="" value="5VIN"/>
+<part name="U$53" library="microbuilder" deviceset="VIN" device="" value="3V3IN"/>
 <part name="U$54" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
 <part name="P1-3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P2-2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
@@ -1328,11 +1328,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P1-1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P1-2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="U$52" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
-<part name="U$55" library="microbuilder" deviceset="VIN" device="" value="8VIN"/>
+<part name="U$55" library="microbuilder" deviceset="VIN" device="" value="3V3IN"/>
 <part name="P2-7" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P2-9" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
-<part name="U$1" library="microbuilder" deviceset="VIN" device="" value="5VIN"/>
-<part name="U$2" library="microbuilder" deviceset="VIN" device="" value="8VIN"/>
 </parts>
 <sheets>
 <sheet>
@@ -1411,12 +1409,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="438.277" y="-28.6258" size="1.778" layer="95"/>
 <attribute name="VALUE" x="445.897" y="-31.242" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="469.9" y="10.16" smashed="yes">
-<attribute name="VALUE" x="468.376" y="11.176" size="1.27" layer="96"/>
-</instance>
-<instance part="U$2" gate="G$1" x="474.98" y="10.16" smashed="yes">
-<attribute name="VALUE" x="473.456" y="11.176" size="1.27" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -1456,24 +1448,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="452.12" y1="-20.32" x2="452.12" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="449.58" y1="-20.32" x2="452.12" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="452.12" y="-20.32"/>
-</segment>
-</net>
-<net name="5VIN" class="0">
-<segment>
-<wire x1="403.86" y1="-12.7" x2="403.86" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U$53" gate="G$1" pin="VIN"/>
-<pinref part="X1" gate="-1" pin="7"/>
-<wire x1="406.4" y1="-12.7" x2="403.86" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P1-3" gate="1" pin="P"/>
-<wire x1="449.58" y1="2.54" x2="454.66" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="U$55" gate="G$1" pin="VIN"/>
-<wire x1="454.66" y1="2.54" x2="454.66" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="P2-3" gate="1" pin="P"/>
-<wire x1="449.58" y1="-17.78" x2="454.66" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="454.66" y1="-17.78" x2="454.66" y2="2.54" width="0.1524" layer="91"/>
-<junction x="454.66" y="2.54"/>
 </segment>
 </net>
 <net name="IO5" class="0">
@@ -1596,13 +1570,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="457.2" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="3V3IN" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
-<wire x1="469.9" y1="7.62" x2="469.9" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="5.08" x2="474.98" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VIN"/>
-<wire x1="474.98" y1="5.08" x2="474.98" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="-15.24" x2="403.86" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="U$53" gate="G$1" pin="VIN"/>
+<pinref part="X1" gate="-1" pin="8"/>
+<wire x1="406.4" y1="-15.24" x2="403.86" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P1-3" gate="1" pin="P"/>
+<wire x1="449.58" y1="2.54" x2="454.66" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="U$55" gate="G$1" pin="VIN"/>
+<wire x1="454.66" y1="2.54" x2="454.66" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="P2-3" gate="1" pin="P"/>
+<wire x1="449.58" y1="-17.78" x2="454.66" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="-17.78" x2="454.66" y2="2.54" width="0.1524" layer="91"/>
+<junction x="454.66" y="2.54"/>
 </segment>
 </net>
 </nets>
