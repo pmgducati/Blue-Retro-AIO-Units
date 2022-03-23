@@ -1315,14 +1315,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="X1" library="SparkFun-Retired" deviceset="DB25_FEMALE" device="H"/>
 <part name="U$53" library="microbuilder" deviceset="VIN" device="" value="3V3IN"/>
 <part name="U$54" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
-<part name="P1-3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="P1-5" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P2-2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P1-6" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P1-4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P1-7" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P1-9" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P2-1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
-<part name="P2-3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="P2-5" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P2-4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P2-6" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="P1-1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
@@ -1347,9 +1347,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$54" gate="G$1" x="414.02" y="-38.1" smashed="yes">
 <attribute name="VALUE" x="412.496" y="-40.64" size="1.27" layer="96"/>
 </instance>
-<instance part="P1-3" gate="1" x="447.04" y="2.54" smashed="yes">
-<attribute name="NAME" x="438.277" y="1.8542" size="1.778" layer="95"/>
-<attribute name="VALUE" x="445.897" y="-0.762" size="1.778" layer="96"/>
+<instance part="P1-5" gate="1" x="447.04" y="0" smashed="yes">
+<attribute name="NAME" x="438.277" y="-0.6858" size="1.778" layer="95"/>
+<attribute name="VALUE" x="445.897" y="-3.302" size="1.778" layer="96"/>
 </instance>
 <instance part="P2-2" gate="1" x="447.04" y="-15.24" smashed="yes">
 <attribute name="NAME" x="438.277" y="-15.9258" size="1.778" layer="95"/>
@@ -1359,9 +1359,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="438.277" y="-3.2258" size="1.778" layer="95"/>
 <attribute name="VALUE" x="445.897" y="-5.842" size="1.778" layer="96"/>
 </instance>
-<instance part="P1-4" gate="1" x="447.04" y="0" smashed="yes">
-<attribute name="NAME" x="438.277" y="-0.6858" size="1.778" layer="95"/>
-<attribute name="VALUE" x="445.897" y="-3.302" size="1.778" layer="96"/>
+<instance part="P1-4" gate="1" x="447.04" y="2.54" smashed="yes">
+<attribute name="NAME" x="438.277" y="1.8542" size="1.778" layer="95"/>
+<attribute name="VALUE" x="445.897" y="-0.762" size="1.778" layer="96"/>
 </instance>
 <instance part="P1-7" gate="1" x="447.04" y="-5.08" smashed="yes">
 <attribute name="NAME" x="438.277" y="-5.7658" size="1.778" layer="95"/>
@@ -1375,13 +1375,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="438.277" y="-13.3858" size="1.778" layer="95"/>
 <attribute name="VALUE" x="445.897" y="-16.002" size="1.778" layer="96"/>
 </instance>
-<instance part="P2-3" gate="1" x="447.04" y="-17.78" smashed="yes">
-<attribute name="NAME" x="438.277" y="-18.4658" size="1.778" layer="95"/>
-<attribute name="VALUE" x="445.897" y="-21.082" size="1.778" layer="96"/>
-</instance>
-<instance part="P2-4" gate="1" x="447.04" y="-20.32" smashed="yes">
+<instance part="P2-5" gate="1" x="447.04" y="-20.32" smashed="yes">
 <attribute name="NAME" x="438.277" y="-21.0058" size="1.778" layer="95"/>
 <attribute name="VALUE" x="445.897" y="-23.622" size="1.778" layer="96"/>
+</instance>
+<instance part="P2-4" gate="1" x="447.04" y="-17.78" smashed="yes">
+<attribute name="NAME" x="438.277" y="-18.4658" size="1.778" layer="95"/>
+<attribute name="VALUE" x="445.897" y="-21.082" size="1.778" layer="96"/>
 </instance>
 <instance part="P2-6" gate="1" x="447.04" y="-22.86" smashed="yes">
 <attribute name="NAME" x="438.277" y="-23.5458" size="1.778" layer="95"/>
@@ -1441,13 +1441,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="P1-4" gate="1" pin="P"/>
-<wire x1="449.58" y1="0" x2="452.12" y2="0" width="0.1524" layer="91"/>
+<wire x1="449.58" y1="2.54" x2="452.12" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="U$52" gate="G$1" pin="GND"/>
-<wire x1="452.12" y1="0" x2="452.12" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="452.12" y1="2.54" x2="452.12" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="P2-4" gate="1" pin="P"/>
-<wire x1="452.12" y1="-20.32" x2="452.12" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="449.58" y1="-20.32" x2="452.12" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="452.12" y="-20.32"/>
+<wire x1="452.12" y1="-17.78" x2="452.12" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="449.58" y1="-17.78" x2="452.12" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="452.12" y="-17.78"/>
 </segment>
 </net>
 <net name="IO5" class="0">
@@ -1578,14 +1578,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="406.4" y1="-15.24" x2="403.86" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P1-3" gate="1" pin="P"/>
-<wire x1="449.58" y1="2.54" x2="454.66" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="P1-5" gate="1" pin="P"/>
+<wire x1="449.58" y1="0" x2="454.66" y2="0" width="0.1524" layer="91"/>
 <pinref part="U$55" gate="G$1" pin="VIN"/>
-<wire x1="454.66" y1="2.54" x2="454.66" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="P2-3" gate="1" pin="P"/>
-<wire x1="449.58" y1="-17.78" x2="454.66" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="454.66" y1="-17.78" x2="454.66" y2="2.54" width="0.1524" layer="91"/>
-<junction x="454.66" y="2.54"/>
+<wire x1="454.66" y1="0" x2="454.66" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="P2-5" gate="1" pin="P"/>
+<wire x1="449.58" y1="-20.32" x2="454.66" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="-20.32" x2="454.66" y2="0" width="0.1524" layer="91"/>
+<junction x="454.66" y="0"/>
 </segment>
 </net>
 </nets>
