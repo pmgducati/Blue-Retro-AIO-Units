@@ -7,6 +7,10 @@ I have created NeoGeo (Parallel 1P both PP and OD), Atari 2600 (Parallel 2P both
 
 I am working through Virtual Boy but need to find a cost efficient way to connect it to the Virtual Boy as I am not consolizing mine.  
 
+Here is the current status od all systems:
+![image](https://user-images.githubusercontent.com/20894227/162074560-ac24bc90-4f3a-42ec-b586-44d5d0f94310.png)
+
+
 The Housing CAD is CAD is complete for the tested PCBs and I am also awaiting R2 prints for the fitmen testing, once I have verified fitment I will start work on all the new system variants.
 
 Please post any requests for a PCB from darthcloud's list and I am happy to make it.
