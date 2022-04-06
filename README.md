@@ -1,9 +1,13 @@
 # Blue Retro AIO PCBs
 This is a collection of PCBs that I made to work with darthcloud's BlueRetro Project. (https://github.com/darthcloud/BlueRetro)  The PCB's were created in Eagle and I have included the Gerbers if you would like to create them yourself. 
 
-Currently I have NES, Nintendo 64, Gamecube, Sega Saturn, 3DO, PSX/PS2 and PCEngine/Turbografx 16 complete and verified. I am working through Virtual Boy but need to find a cost efficient way to connect it to the Virtual Boy as I am not consolizing mine.  
+Currently I have NES, Nintendo 64, Gamecube, Sega Saturn, 3DO, PSX/PS2 and PCEngine/Turbografx 16 tested and am waiting on R2 of the PCBs for fitment testing in the housings. 
 
-The Housing CAD is complete and I am awaiting the prints for test fits
+I have created NeoGeo (Parallel 1P both PP and OD), Atari 2600 (Parallel 2P both PP and OD), SG-1000/Sega Master System (Parallel 2P both PP and OD), Genesis (No Multitap), SNES, CD-i, Jaguar, PC-FX and Dreamcast but have not tested them as I do not have the sytems. Until I recieve the above PCBs I consider these pending as they all incorporate the fitment changes.
+
+I am working through Virtual Boy but need to find a cost efficient way to connect it to the Virtual Boy as I am not consolizing mine.  
+
+The Housing CAD is CAD is complete for the tested PCBs and I am also awaiting R2 prints for the fitmen testing, once I have verified fitment I will start work on all the new system variants.
 
 Please post any requests for a PCB from darthcloud's list and I am happy to make it.
 
