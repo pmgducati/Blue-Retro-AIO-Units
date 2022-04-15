@@ -1425,10 +1425,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$40" library="microbuilder" deviceset="VIN" device="" value="5VIN"/>
 <part name="U$41" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
 <part name="U$42" library="microbuilder" deviceset="VIN" device="" value="5VIN"/>
-<part name="5VIN2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
-<part name="DIN1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
-<part name="CLK1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
-<part name="GND2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="5VIN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="DIN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="CLK" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -1474,19 +1474,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$42" gate="G$1" x="358.14" y="-137.16" smashed="yes">
 <attribute name="VALUE" x="356.616" y="-136.144" size="1.27" layer="96"/>
 </instance>
-<instance part="5VIN2" gate="1" x="350.52" y="-142.24" smashed="yes">
+<instance part="5VIN" gate="1" x="350.52" y="-142.24" smashed="yes">
 <attribute name="NAME" x="349.377" y="-140.3858" size="1.778" layer="95"/>
 <attribute name="VALUE" x="349.377" y="-145.542" size="1.778" layer="96"/>
 </instance>
-<instance part="DIN1" gate="1" x="350.52" y="-147.32" smashed="yes">
+<instance part="DIN" gate="1" x="350.52" y="-147.32" smashed="yes">
 <attribute name="NAME" x="349.377" y="-145.4658" size="1.778" layer="95"/>
 <attribute name="VALUE" x="349.377" y="-150.622" size="1.778" layer="96"/>
 </instance>
-<instance part="CLK1" gate="1" x="350.52" y="-152.4" smashed="yes">
+<instance part="CLK" gate="1" x="350.52" y="-152.4" smashed="yes">
 <attribute name="NAME" x="349.377" y="-150.5458" size="1.778" layer="95"/>
 <attribute name="VALUE" x="349.377" y="-155.702" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="350.52" y="-157.48" smashed="yes">
+<instance part="GND" gate="1" x="350.52" y="-157.48" smashed="yes">
 <attribute name="NAME" x="349.377" y="-155.6258" size="1.778" layer="95"/>
 <attribute name="VALUE" x="349.377" y="-160.782" size="1.778" layer="96"/>
 </instance>
@@ -1609,7 +1609,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="391.16" y="-109.22"/>
 </segment>
 <segment>
-<pinref part="GND2" gate="1" pin="P"/>
+<pinref part="GND" gate="1" pin="P"/>
 <wire x1="353.06" y1="-157.48" x2="358.14" y2="-157.48" width="0.1524" layer="91"/>
 <pinref part="U$41" gate="G$1" pin="GND"/>
 <wire x1="358.14" y1="-157.48" x2="358.14" y2="-160.02" width="0.1524" layer="91"/>
@@ -1629,7 +1629,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="431.8" y1="-71.12" x2="431.8" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="5VIN2" gate="1" pin="P"/>
+<pinref part="5VIN" gate="1" pin="P"/>
 <pinref part="U$42" gate="G$1" pin="VIN"/>
 <wire x1="353.06" y1="-142.24" x2="358.14" y2="-142.24" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="-142.24" x2="358.14" y2="-139.7" width="0.1524" layer="91"/>
@@ -1670,7 +1670,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="353.06" y1="-152.4" x2="365.76" y2="-152.4" width="0.1524" layer="91"/>
 <label x="365.76" y="-149.86" size="1.778" layer="95" rot="R180"/>
-<pinref part="CLK1" gate="1" pin="P"/>
+<pinref part="CLK" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="DIN" class="0">
@@ -1682,7 +1682,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="353.06" y1="-147.32" x2="365.76" y2="-147.32" width="0.1524" layer="91"/>
 <label x="365.76" y="-144.78" size="1.778" layer="95" rot="R180"/>
-<pinref part="DIN1" gate="1" pin="P"/>
+<pinref part="DIN" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="IO21" class="0">
