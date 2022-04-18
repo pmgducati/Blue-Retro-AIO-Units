@@ -8,7 +8,8 @@ I have created NeoGeo (Parallel 1P both PP and OD), Atari 2600 (Parallel 2P both
 I am working through Virtual Boy but need to find a cost efficient way to connect it to the Virtual Boy as I am not consolizing mine.  
 
 Here is the current status of all systems:
-![image](https://user-images.githubusercontent.com/20894227/163688536-834d8010-3fa9-4aa7-950a-d3ba3420a86f.png)
+![image](https://user-images.githubusercontent.com/20894227/163892248-55ae9f0d-81cd-4c3d-851c-f961e476afdd.png)
+
 
 
 
