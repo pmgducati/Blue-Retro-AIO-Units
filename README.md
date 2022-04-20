@@ -3,12 +3,13 @@ This is a collection of PCBs that I made to work with darthcloud's BlueRetro Pro
 
 Currently I have NES, Nintendo 64, Gamecube, Sega Saturn, 3DO, PSX/PS2 and PCEngine/Turbografx 16 complete. 
 
-I have created PCB's for all the other supported systems with the exception of Atari7800 and JVS (Both in Progess) but have not tested them as I do not have the sytems.  I have created a issue for each of the systems that I do not have to test.  If you make one please comment in the related issue on any progress/problems.
+I have created PCB's for all the other supported systems with the exception of JVS (In Progess) but have not tested them as I do not have the sytems.  I have created a issue for each of the systems that I do not have to test.  If you make one please comment in the related issue on any progress/problems.
 
 I am working through Virtual Boy but need to find a cost efficient way to connect it to the Virtual Boy as I am not consolizing mine.  
 
 Here is the current status of all systems:
-![image](https://user-images.githubusercontent.com/20894227/163912889-810bba3e-0dd2-40f4-b4d1-73f64447fab2.png)
+![image](https://user-images.githubusercontent.com/20894227/164141740-4fb367c3-a4fb-49af-af5a-2e6cd9cbfa3b.png)
+
 
 
 
