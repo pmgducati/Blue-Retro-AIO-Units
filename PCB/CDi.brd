@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -182,7 +182,9 @@
 <hole x="18.5" y="53" drill="5"/>
 <hole x="18.5" y="8" drill="5"/>
 <text x="15.5" y="11.5" size="1.778" layer="21">CDi
-v1.0 4/6/22</text>
+v1.1 6/14/22</text>
+<text x="45" y="49" size="1.778" layer="21" rot="R180">USB MINI IS REQUIRED
+FOR POWER</text>
 </plain>
 <libraries>
 <library name="wirepad" urn="urn:adsk.eagle:library:412">
@@ -451,21 +453,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.038" y1="1.1939" x2="0.8304" y2="1.4015" width="0.1016" layer="51" curve="-90"/>
 <wire x1="0.8304" y1="1.4015" x2="0.6228" y2="4.8278" width="0.1016" layer="51"/>
 <wire x1="0.6228" y1="4.8278" x2="-0.6232" y2="4.8278" width="0.1016" layer="51"/>
-<wire x1="3.88" y1="8.9594" x2="5.03" y2="8.9594" width="0.1016" layer="51"/>
-<wire x1="5.03" y1="7.5808" x2="3.88" y2="7.5808" width="0.1016" layer="51"/>
-<wire x1="5.05" y1="8" x2="5.05" y2="8.6" width="0.1016" layer="51" curve="-180"/>
-<wire x1="5.05" y1="8.95" x2="5.05" y2="8.6" width="0.1016" layer="51"/>
-<wire x1="5.05" y1="7.6" x2="5.05" y2="8" width="0.1016" layer="51"/>
 <wire x1="3.88" y1="4.6194" x2="5.03" y2="4.6194" width="0.1016" layer="51"/>
 <wire x1="5.03" y1="3.2408" x2="3.88" y2="3.2408" width="0.1016" layer="51"/>
 <wire x1="5.05" y1="3.66" x2="5.05" y2="4.26" width="0.1016" layer="51" curve="-180"/>
 <wire x1="5.05" y1="4.61" x2="5.05" y2="4.26" width="0.1016" layer="51"/>
 <wire x1="5.05" y1="3.26" x2="5.05" y2="3.66" width="0.1016" layer="51"/>
-<wire x1="-3.91" y1="7.5606" x2="-5.06" y2="7.5606" width="0.1016" layer="51"/>
-<wire x1="-5.06" y1="8.9392" x2="-3.91" y2="8.9392" width="0.1016" layer="51"/>
-<wire x1="-5.08" y1="8.52" x2="-5.08" y2="7.92" width="0.1016" layer="51" curve="-180"/>
-<wire x1="-5.08" y1="7.57" x2="-5.08" y2="7.92" width="0.1016" layer="51"/>
-<wire x1="-5.08" y1="8.92" x2="-5.08" y2="8.52" width="0.1016" layer="51"/>
 <wire x1="-3.91" y1="3.2206" x2="-5.06" y2="3.2206" width="0.1016" layer="51"/>
 <wire x1="-5.06" y1="4.5992" x2="-3.91" y2="4.5992" width="0.1016" layer="51"/>
 <wire x1="-5.08" y1="4.18" x2="-5.08" y2="3.58" width="0.1016" layer="51" curve="-180"/>
@@ -489,18 +481,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.1" y1="9.3" x2="3.2" y2="9.3" width="0.127" layer="21"/>
 <wire x1="-3.9" y1="0.1" x2="-3.9" y2="3.2" width="0.127" layer="51"/>
 <wire x1="3.9" y1="0.1" x2="3.9" y2="3.2" width="0.127" layer="51"/>
-<wire x1="-3.9" y1="9.3" x2="-3.9" y2="8.95" width="0.127" layer="51"/>
-<wire x1="3.9" y1="9.3" x2="3.9" y2="9" width="0.127" layer="51"/>
 <wire x1="-3.9" y1="0.1" x2="3.9" y2="0.1" width="0.127" layer="21"/>
-<pad name="GND1" x="-4" y="3.9" drill="2" diameter="3.81"/>
-<pad name="GND4" x="4" y="3.9" drill="2" diameter="3.81"/>
-<pad name="GND2" x="-4" y="8.6" drill="2" diameter="3.2"/>
-<pad name="GND3" x="4" y="8.6" drill="2" diameter="3.2"/>
-<pad name="GND" x="1.6" y="9.8" drill="0.7" shape="offset" rot="R90"/>
-<pad name="ID" x="0.8" y="8.5" drill="0.7" shape="offset" rot="R270"/>
-<pad name="D+" x="0" y="9.8" drill="0.7" shape="offset" rot="R90"/>
-<pad name="D-" x="-0.8" y="8.5" drill="0.7" shape="offset" rot="R270"/>
-<pad name="VBUS" x="-1.6" y="9.8" drill="0.7" shape="offset" rot="R90"/>
+<pad name="GND1" x="-3.65" y="3.95" drill="2" diameter="3.81"/>
+<pad name="GND4" x="3.65" y="3.95" drill="2" diameter="3.81"/>
+<pad name="GND" x="1.6" y="8.9" drill="0.7" shape="offset" rot="R90"/>
+<pad name="ID" x="0.8" y="7.65" drill="0.7" shape="offset" rot="R270"/>
+<pad name="D+" x="0" y="8.9" drill="0.7" shape="offset" rot="R90"/>
+<pad name="D-" x="-0.8" y="7.65" drill="0.7" shape="offset" rot="R270"/>
+<pad name="VBUS" x="-1.6" y="8.9" drill="0.7" shape="offset" rot="R90"/>
 <text x="-2.81" y="10.75" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-3.31" y="-1.65" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
@@ -749,7 +737,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="42.5" y="18.5" size="0.0254" layer="27" rot="R90"/>
 </element>
 <element name="CN1" library="adafruit" package="USB-MINIB-THM" value="" x="59.373" y="30.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="48.623" y="27.69" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="51.81" y="26.123" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="61.023" y="27.19" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 </elements>
@@ -1217,8 +1205,8 @@ design rules under a new name.</description>
 <via x="53.6568" y="19.735840625" extent="1-16" drill="0.35"/>
 <via x="54.6568" y="21.735840625" extent="1-16" drill="0.35"/>
 <via x="53.6568" y="23.735840625" extent="1-16" drill="0.35"/>
-<via x="54.6568" y="29.735840625" extent="1-16" drill="0.35"/>
-<via x="53.6568" y="31.735840625" extent="1-16" drill="0.35"/>
+<via x="50.6568" y="25.735840625" extent="1-16" drill="0.35"/>
+<via x="49.6568" y="35.735840625" extent="1-16" drill="0.35"/>
 <via x="54.6568" y="37.735840625" extent="1-16" drill="0.35"/>
 <via x="53.6568" y="39.735840625" extent="1-16" drill="0.35"/>
 <via x="54.6568" y="41.735840625" extent="1-16" drill="0.35"/>
@@ -1227,8 +1215,8 @@ design rules under a new name.</description>
 <via x="55.6568" y="19.735840625" extent="1-16" drill="0.35"/>
 <via x="56.6568" y="21.735840625" extent="1-16" drill="0.35"/>
 <via x="55.6568" y="23.735840625" extent="1-16" drill="0.35"/>
-<via x="56.6568" y="29.735840625" extent="1-16" drill="0.35"/>
-<via x="55.6568" y="31.735840625" extent="1-16" drill="0.35"/>
+<via x="52.6568" y="25.735840625" extent="1-16" drill="0.35"/>
+<via x="51.6568" y="35.735840625" extent="1-16" drill="0.35"/>
 <via x="56.6568" y="37.735840625" extent="1-16" drill="0.35"/>
 <via x="55.6568" y="39.735840625" extent="1-16" drill="0.35"/>
 <via x="56.6568" y="41.735840625" extent="1-16" drill="0.35"/>
@@ -1249,7 +1237,7 @@ design rules under a new name.</description>
 <wire x1="19.38" y1="42.97" x2="19.38" y2="41.12" width="0.6096" layer="16"/>
 <wire x1="19.38" y1="41.12" x2="20" y2="40.5" width="0.6096" layer="16"/>
 <wire x1="45.5" y1="40.5" x2="46.5" y2="39.5" width="0.6096" layer="16"/>
-<wire x1="47.1" y1="28.9" x2="49.573" y2="28.9" width="0.6096" layer="16"/>
+<wire x1="47.1" y1="28.9" x2="50.473" y2="28.9" width="0.6096" layer="16"/>
 <wire x1="20" y1="40.5" x2="45.5" y2="40.5" width="0.6096" layer="16"/>
 <wire x1="46.5" y1="39.5" x2="46.5" y2="29.5" width="0.6096" layer="16"/>
 <wire x1="46.5" y1="29.5" x2="47.1" y2="28.9" width="0.6096" layer="16"/>
