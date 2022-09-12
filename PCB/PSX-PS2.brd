@@ -183,8 +183,9 @@
 <hole x="53" y="47.5" drill="5"/>
 <hole x="18.5" y="53" drill="5"/>
 <hole x="18.5" y="8" drill="5"/>
-<text x="22" y="10.5" size="1.778" layer="21">PSX/PS2 v1.3 4/2/22</text>
-<text x="27" y="13.5" size="1.016" layer="25" rot="R90">DO NOT USE BOTH PIN 3 (8V) AND 5 (3V3). 
+<text x="22" y="10.5" size="1.778" layer="21">PSX/PS2 v1.3.5 9/11/22</text>
+<text x="27" y="13.5" size="1.016" layer="25" rot="R90">BOTH PSX AND PS2 - 
+DO NOT USE BOTH PIN 3 (8V) AND 5 (3V3). 
 EITHER WORKS BUT SOME CONSOLES HAVE
 TROUBLE WITH AUTO DETECTION USING PIN 3 (8V).</text>
 <wire x1="58.5" y1="46.257359375" x2="58.5" y2="43.5" width="0" layer="20"/>
