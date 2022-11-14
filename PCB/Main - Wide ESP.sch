@@ -3950,23 +3950,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 <package name="M25H">
 <description>&lt;b&gt;SUB-D&lt;/b&gt;</description>
-<wire x1="19.304" y1="-17.526" x2="19.05" y2="-17.526" width="0.1524" layer="21"/>
 <wire x1="19.304" y1="-17.526" x2="19.812" y2="-17.018" width="0.1524" layer="21" curve="90"/>
 <wire x1="-19.812" y1="-17.018" x2="-19.304" y2="-17.526" width="0.1524" layer="21" curve="90"/>
-<wire x1="19.431" y1="-11.684" x2="-19.431" y2="-11.684" width="0.1524" layer="21"/>
-<wire x1="26.543" y1="-7.62" x2="21.463" y2="-7.62" width="0.1524" layer="21"/>
-<wire x1="26.543" y1="-7.62" x2="26.543" y2="-10.668" width="0.1524" layer="21"/>
-<wire x1="26.543" y1="-7.62" x2="26.543" y2="-7.493" width="0.1524" layer="21"/>
-<wire x1="26.543" y1="-10.668" x2="26.543" y2="-11.176" width="0.1524" layer="21"/>
-<wire x1="26.543" y1="-11.176" x2="26.543" y2="-11.684" width="0.1524" layer="21"/>
-<wire x1="-26.543" y1="-11.684" x2="-26.543" y2="-11.176" width="0.1524" layer="21"/>
-<wire x1="-26.543" y1="-11.176" x2="-26.543" y2="-10.668" width="0.1524" layer="21"/>
-<wire x1="-26.543" y1="-10.668" x2="-26.543" y2="-7.62" width="0.1524" layer="21"/>
-<wire x1="-26.543" y1="-7.62" x2="-26.543" y2="-7.493" width="0.1524" layer="21"/>
+<wire x1="26.543" y1="-11.684" x2="-26.543" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="26.543" y1="-7.62" x2="20.574" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="26.543" y1="-7.62" x2="26.543" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="-26.543" y1="-11.684" x2="-26.543" y2="-7.62" width="0.1524" layer="21"/>
 <wire x1="21.463" y1="-10.668" x2="21.463" y2="-11.176" width="0.1524" layer="21"/>
 <wire x1="21.463" y1="-10.668" x2="21.336" y2="-10.668" width="0.1524" layer="21"/>
 <wire x1="20.701" y1="-7.62" x2="21.336" y2="-8.255" width="0.1524" layer="21" curve="-90"/>
-<wire x1="21.463" y1="-7.62" x2="20.574" y2="-7.62" width="0.1524" layer="21"/>
 <wire x1="20.574" y1="-7.62" x2="20.32" y2="-7.62" width="0.1524" layer="21"/>
 <wire x1="21.336" y1="-8.255" x2="21.336" y2="-10.668" width="0.1524" layer="21"/>
 <wire x1="20.32" y1="-7.62" x2="20.32" y2="-6.858" width="0.1524" layer="21"/>
@@ -3974,13 +3966,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="20.32" y1="-6.858" x2="-20.32" y2="-6.858" width="0.1524" layer="21"/>
 <wire x1="-20.32" y1="-7.62" x2="-20.32" y2="-6.858" width="0.1524" layer="21"/>
 <wire x1="-20.32" y1="-7.62" x2="-20.574" y2="-7.62" width="0.1524" layer="21"/>
-<wire x1="-20.574" y1="-7.62" x2="-21.463" y2="-7.62" width="0.1524" layer="21"/>
 <wire x1="-21.463" y1="-10.668" x2="-21.463" y2="-11.176" width="0.1524" layer="21"/>
 <wire x1="-21.336" y1="-8.255" x2="-21.336" y2="-10.668" width="0.1524" layer="21"/>
 <wire x1="-21.336" y1="-10.668" x2="-21.463" y2="-10.668" width="0.1524" layer="21"/>
 <wire x1="-21.336" y1="-8.255" x2="-20.701" y2="-7.62" width="0.1524" layer="21" curve="-90"/>
 <wire x1="25.908" y1="3.175" x2="26.543" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="26.543" y1="2.54" x2="26.543" y2="-7.493" width="0.1524" layer="21"/>
+<wire x1="26.543" y1="2.54" x2="26.543" y2="-7.62" width="0.1524" layer="21"/>
 <wire x1="21.082" y1="3.175" x2="25.908" y2="3.175" width="0.1524" layer="21"/>
 <wire x1="21.082" y1="3.175" x2="20.574" y2="2.667" width="0.1524" layer="21"/>
 <wire x1="20.574" y1="2.667" x2="20.574" y2="-7.62" width="0.1524" layer="21"/>
@@ -3988,7 +3979,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-20.574" y1="2.667" x2="-21.082" y2="3.175" width="0.1524" layer="21"/>
 <wire x1="-21.082" y1="3.175" x2="-26.035" y2="3.175" width="0.1524" layer="21"/>
 <wire x1="-26.035" y1="3.175" x2="-26.543" y2="2.667" width="0.1524" layer="21"/>
-<wire x1="-26.543" y1="2.667" x2="-26.543" y2="-7.493" width="0.1524" layer="21"/>
+<wire x1="-26.543" y1="2.667" x2="-26.543" y2="-7.62" width="0.1524" layer="21"/>
 <wire x1="-2.7686" y1="1.143" x2="-2.7686" y2="0.127" width="0.8128" layer="51"/>
 <wire x1="0" y1="1.143" x2="0" y2="0.127" width="0.8128" layer="51"/>
 <wire x1="2.7686" y1="1.143" x2="2.7686" y2="0.127" width="0.8128" layer="51"/>
@@ -3998,11 +3989,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5.5118" y1="1.143" x2="-5.5118" y2="0.127" width="0.8128" layer="51"/>
 <wire x1="-6.9088" y1="-1.397" x2="-6.9088" y2="-2.413" width="0.8128" layer="51"/>
 <wire x1="-8.2804" y1="1.143" x2="-8.2804" y2="0.127" width="0.8128" layer="51"/>
-<wire x1="-21.463" y1="-7.62" x2="-26.543" y2="-7.62" width="0.1524" layer="21"/>
-<wire x1="-19.431" y1="-11.684" x2="-26.543" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="-20.574" y1="-7.62" x2="-26.543" y2="-7.62" width="0.1524" layer="21"/>
 <wire x1="-19.812" y1="-12.319" x2="-19.812" y2="-17.018" width="0.1524" layer="21"/>
 <wire x1="-20.447" y1="-11.684" x2="-19.812" y2="-12.319" width="0.1524" layer="21" curve="-90"/>
-<wire x1="26.543" y1="-11.684" x2="19.431" y2="-11.684" width="0.1524" layer="21"/>
 <wire x1="19.812" y1="-12.319" x2="19.812" y2="-17.018" width="0.1524" layer="21"/>
 <wire x1="19.812" y1="-12.319" x2="20.447" y2="-11.684" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-9.652" y1="-1.3716" x2="-9.652" y2="-2.3876" width="0.8128" layer="51"/>
@@ -4021,13 +4010,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-12.4206" y1="-1.3716" x2="-12.4206" y2="-2.3876" width="0.8128" layer="51"/>
 <wire x1="-15.1892" y1="-1.3716" x2="-15.1892" y2="-2.3876" width="0.8128" layer="51"/>
 <wire x1="-16.5608" y1="1.143" x2="-16.5608" y2="0.127" width="0.8128" layer="51"/>
-<wire x1="-19.05" y1="-17.526" x2="-19.304" y2="-17.526" width="0.1524" layer="21"/>
-<wire x1="19.05" y1="-17.526" x2="-19.05" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="19.304" y1="-17.526" x2="-19.304" y2="-17.526" width="0.1524" layer="21"/>
 <circle x="23.5204" y="0" radius="1.651" width="0.1524" layer="21"/>
-<circle x="23.5204" y="0" radius="2.667" width="0" layer="42"/>
-<circle x="23.5204" y="0" radius="2.667" width="0" layer="43"/>
-<circle x="-23.5204" y="0" radius="2.667" width="0" layer="42"/>
-<circle x="-23.5204" y="0" radius="2.667" width="0" layer="43"/>
 <circle x="-23.5204" y="0" radius="1.651" width="0.1524" layer="21"/>
 <pad name="13" x="16.5608" y="1.27" drill="1.016" shape="octagon"/>
 <pad name="12" x="13.7922" y="1.27" drill="1.016" shape="octagon"/>
@@ -4091,6 +4075,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <hole x="-23.5204" y="0" drill="3.302"/>
 <text x="-4.445" y="3.81" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="0.635" y="3.81" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<pad name="P$1" x="-23.495" y="0" drill="3.302" diameter="5.588" rot="R90"/>
+<pad name="P$2" x="23.495" y="0" drill="3.302" diameter="5.588" rot="R90"/>
 </package>
 <package name="M25HP">
 <description>&lt;b&gt;SUB-D&lt;/b&gt;</description>
@@ -4763,6 +4749,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="12" x="7.62" y="-15.24" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="25" x="-7.62" y="-15.24" visible="pad" length="middle" direction="pas"/>
 <pin name="13" x="7.62" y="-17.78" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="ANCHOR1" x="-5.08" y="-30.48" length="middle"/>
+<pin name="ANCHOR2" x="-5.08" y="-33.02" length="middle"/>
+<wire x1="0" y1="-30.48" x2="0" y2="-33.02" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4831,6 +4820,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="-1" pin="7" pad="7"/>
 <connect gate="-1" pin="8" pad="8"/>
 <connect gate="-1" pin="9" pad="9"/>
+<connect gate="-1" pin="ANCHOR1" pad="P$1"/>
+<connect gate="-1" pin="ANCHOR2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4863,6 +4854,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="-1" pin="7" pad="7"/>
 <connect gate="-1" pin="8" pad="8"/>
 <connect gate="-1" pin="9" pad="9"/>
+<connect gate="-1" pin="ANCHOR1" pad="G1"/>
+<connect gate="-1" pin="ANCHOR2" pad="G2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5184,7 +5177,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="X1" library="SparkFun-Retired" deviceset="DB25_MALE" device="H"/>
+<part name="X1" library="SparkFun-Retired" deviceset="DB25_MALE" device="HP"/>
 <part name="U$25" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
 <part name="U$27" library="microbuilder" deviceset="VIN" device="" value="5VIN"/>
 <part name="U$28" library="microbuilder" deviceset="VIN" device="" value="3V3IN"/>
@@ -5263,6 +5256,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="X1" gate="-1" pin="5"/>
 <wire x1="233.68" y1="-12.7" x2="231.14" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="231.14" y="-12.7"/>
+<wire x1="231.14" y1="-2.54" x2="231.14" y2="12.7" width="0.1524" layer="91"/>
+<junction x="231.14" y="-2.54"/>
+<wire x1="231.14" y1="12.7" x2="248.92" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-1" pin="ANCHOR2"/>
+<wire x1="248.92" y1="12.7" x2="248.92" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="20.32" x2="248.92" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="22.86" x2="246.38" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-1" pin="ANCHOR1"/>
+<wire x1="246.38" y1="20.32" x2="248.92" y2="20.32" width="0.1524" layer="91"/>
+<junction x="248.92" y="20.32"/>
 </segment>
 <segment>
 <wire x1="322.58" y1="12.7" x2="325.12" y2="12.7" width="0.1524" layer="91"/>
