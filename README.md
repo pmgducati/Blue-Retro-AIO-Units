@@ -6,7 +6,8 @@ I have created PCB's for all the other supported systems with the exception of J
 I am working through Virtual Boy but need to find a cost efficient way to connect it to the Virtual Boy as I am not consolizing mine.  
 
 Here is the current status of all systems:
-![image](https://user-images.githubusercontent.com/20894227/189570750-783915e1-78d9-46b2-a781-567fe3aa93a3.png)
+![progress](https://user-images.githubusercontent.com/20894227/201767542-0c9f4f45-1950-4e40-afdf-2ff10a2704e0.png)
+
 
 The Housing CAD is complete for the systems listed above and I am working on the remainging cover variants for the remaning systems.
 
