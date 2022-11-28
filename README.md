@@ -6,7 +6,7 @@ I have created PCB's for all the other supported systems with the exception of J
 I am working through Virtual Boy but need to find a cost efficient way to connect it to the Virtual Boy as I am not consolizing mine.  
 
 Here is the current status of all systems:
-![Capture](https://user-images.githubusercontent.com/20894227/204398160-d0598e4a-c54a-492d-b389-8eac88d5e2e7.PNG)
+![image](https://user-images.githubusercontent.com/20894227/204398504-5d00e926-79e7-4f33-8a49-0f9b5b9cd1ee.png)
 
 
 
