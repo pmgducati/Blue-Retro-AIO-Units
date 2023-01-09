@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -239,6 +239,7 @@
 <pad name="12" x="3.97" y="2.54" drill="0.74" diameter="1.14"/>
 <pad name="13" x="3.97" y="5.08" drill="0.74" diameter="1.14"/>
 <pad name="14" x="3.97" y="7.62" drill="0.74" diameter="1.14"/>
+<wire x1="-1.27" y1="9.525" x2="1.27" y2="9.525" width="0.1524" layer="21" curve="180"/>
 </package>
 </packages>
 </library>

@@ -220,6 +220,7 @@ by exp-lbrs.ulp</description>
 <pad name="12" x="3.97" y="2.54" drill="0.74" diameter="1.14"/>
 <pad name="13" x="3.97" y="5.08" drill="0.74" diameter="1.14"/>
 <pad name="14" x="3.97" y="7.62" drill="0.74" diameter="1.14"/>
+<wire x1="-1.27" y1="9.525" x2="1.27" y2="9.525" width="0.1524" layer="21" curve="180"/>
 </package>
 </packages>
 <symbols>
@@ -1403,7 +1404,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.889" y1="18.7452" x2="-3.5052" y2="18.7452" width="0.1524" layer="21"/>
 <wire x1="-3.5052" y1="18.7452" x2="-4.1148" y2="18.7452" width="0.1524" layer="21"/>
 <wire x1="-4.1148" y1="18.7452" x2="-6.2992" y2="18.7452" width="0.1524" layer="21"/>
-<wire x1="-3.5052" y1="18.7452" x2="-4.1148" y2="18.7452" width="0" layer="21" curve="-180"/>
 <wire x1="-7.112" y1="17.2212" x2="-7.112" y2="18.3388" width="0.1524" layer="51"/>
 <wire x1="-7.112" y1="18.3388" x2="-8.1788" y2="18.3388" width="0.1524" layer="51"/>
 <wire x1="-8.1788" y1="18.3388" x2="-8.1788" y2="17.2212" width="0.1524" layer="51"/>
@@ -1470,11 +1470,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.5588" y1="18.3388" x2="-0.508" y2="18.3388" width="0.1524" layer="51"/>
 <wire x1="-7.112" y1="-0.9652" x2="-0.508" y2="-0.9652" width="0.1524" layer="51"/>
 <wire x1="-0.508" y1="-0.9652" x2="-0.508" y2="18.7452" width="0.1524" layer="51"/>
-<wire x1="-0.508" y1="18.7452" x2="-3.5052" y2="18.7452" width="0.1524" layer="51"/>
-<wire x1="-3.5052" y1="18.7452" x2="-4.1148" y2="18.7452" width="0.1524" layer="51"/>
-<wire x1="-4.1148" y1="18.7452" x2="-7.112" y2="18.7452" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="18.7452" x2="-2.54" y2="18.7452" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="18.7452" x2="-5.08" y2="18.7452" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="18.7452" x2="-7.112" y2="18.7452" width="0.1524" layer="51"/>
 <wire x1="-7.112" y1="18.7452" x2="-7.112" y2="-0.9652" width="0.1524" layer="51"/>
-<wire x1="-3.5052" y1="18.7452" x2="-4.1148" y2="18.7452" width="0" layer="51" curve="-180"/>
+<wire x1="-2.54" y1="18.7452" x2="-5.08" y2="18.7452" width="0.127" layer="51" curve="-180"/>
 <text x="-8.739440625" y="19.2573" size="2.083240625" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-9.53433125" y="-3.76288125" size="2.084840625" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 <pad name="1" x="-7.62" y="17.78" drill="1.1176" shape="square"/>

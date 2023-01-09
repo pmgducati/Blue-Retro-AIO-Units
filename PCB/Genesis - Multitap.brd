@@ -249,6 +249,7 @@
 <pad name="12" x="3.97" y="2.54" drill="0.74" diameter="1.14"/>
 <pad name="13" x="3.97" y="5.08" drill="0.74" diameter="1.14"/>
 <pad name="14" x="3.97" y="7.62" drill="0.74" diameter="1.14"/>
+<wire x1="-1.27" y1="9.525" x2="1.27" y2="9.525" width="0.1524" layer="21" curve="180"/>
 </package>
 </packages>
 </library>
@@ -449,6 +450,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="12" x="3.97" y="2.54" drill="0.77" diameter="1.17"/>
 <pad name="13" x="3.97" y="5.08" drill="0.77" diameter="1.17"/>
 <pad name="14" x="3.97" y="7.62" drill="0.77" diameter="1.17"/>
+<wire x1="-1.27" y1="9.652" x2="1.27" y2="9.652" width="0.1524" layer="21" curve="180"/>
 </package>
 </packages>
 </library>
