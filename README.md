@@ -6,7 +6,8 @@ I have created PCB's for all the other supported systems with the exception of J
 I am working through Virtual Boy but need to find a cost efficient way to connect it to the Virtual Boy as I am not consolizing mine.  
 
 Here is the current status of all systems:
-![image](https://github.com/pmgducati/Blue-Retro-AIO-Units/assets/20894227/0d1b7542-daee-4137-824b-50074c3f698c)
+![image](https://github.com/pmgducati/Blue-Retro-AIO-Units/assets/20894227/e97ddebf-0a3b-40da-8818-5d1b542c8645)
+
 
 
 
