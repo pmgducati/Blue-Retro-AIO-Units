@@ -1,18 +1,15 @@
 # Blue Retro AIO PCBs
-This is a collection of PCBs that I made to work with darthcloud's BlueRetro Project. (https://github.com/darthcloud/BlueRetro)  The PCB's were created in Eagle and I have included the Gerbers if you would like to create them yourself. 
+This is a collection of PCBs that I made to work with darthcloud's BlueRetro Project. (https://github.com/darthcloud/BlueRetro)  The PCB's were created in Eagle and I have included the Gerbers if you would like to build them yourself. 
 
-I have created PCB's for all the other supported systems with the exception of JVS (In Progess) but have not tested them as I do not have the sytems.  I have created a issue for each of the systems that I do not have to test.  If you make one please comment in the related issue on any progress/problems.
+I have created PCB's for all supported systems with the exception of JVS.  An issue has been created for each of the systems that need testing.  If you make one please comment in the related issue on any progress/issues.
 
-I am working through Virtual Boy but need to find a cost efficient way to connect it to the Virtual Boy as I am not consolizing mine.  
+Currently, I am working on the Virtual Boy PCB, but need to find a cost efficient controller plug (I am not consolizing mine).  
 
-Here is the current status of all systems:
+Amaiorano wrote up a review for the variants that they built, you can read it here:
+https://amaiorano.io/2023/11/06/blueretro-aio.html
+
+Current status of all systems:
 ![image](https://github.com/pmgducati/Blue-Retro-AIO-Units/assets/20894227/e97ddebf-0a3b-40da-8818-5d1b542c8645)
-
-
-
-
-
-The Housing CAD is complete for the systems listed above and I am working on the remainging cover variants for the remaning systems.
 
 Here are some pics of the PCBs and Housings:
 ![PXL_20220302_221752797](https://user-images.githubusercontent.com/20894227/156474332-4d7819eb-1828-4424-8080-2f1addeb1904.jpg)
